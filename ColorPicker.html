@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColourPick</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <h1>Pick a Colour</h1>
+    <div id="box">
+        <div class="color" data-color="#ff0000">Red</div>
+        <div class="color" data-color="#00ff00">Green</div>
+        <div class="color" data-color="#0000ff">Blue</div>
+        <div class="color" data-color="#000000">Black</div>
+        <div class="color" data-color="#ffffff">White</div>
+        <div class="color" data-color="#ffaa00">Orange</div>
+    </div>
+    <button id="random-color-button">Random Color</button>
+    <div id="show-color-code">
+        <h3 id="color-code">HEX Code</h3>
+        <svg id="copy" xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512">
+            <path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/>
+        </svg>
+    </div>
+    <script src="static/script.js"></script>
+</body>
